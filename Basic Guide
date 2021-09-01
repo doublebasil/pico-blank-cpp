@@ -1,0 +1,13 @@
+Firstly, turning cpp code into something the pcio executes:
+1 - Open terminal in the project folder, same as the cpp file
+2 - mkdir build
+3 - cd build
+4 - cmake ..
+5 - make
+6 - inside the build folder, a .uf2 file is created
+7 - upload the uf2 to the pico using its bootloader
+
+
+To read the print statements from the pico
+
+minicom -b 115200 -o -D /dev/ttyACM0
