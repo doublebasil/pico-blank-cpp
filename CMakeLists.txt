@@ -21,8 +21,10 @@ set(PICO_EXAMPLES_PATH ${PROJECT_SOURCE_DIR})
 pico_sdk_init()
 # More stuff I don't understand (:
 add_executable(${FILENAME} ${FILENAME}.${EXTENSION})
-# Combine the c libraries with the pico library
+
+# This is where you add other libraries, e.g. hardware_adc
 target_link_libraries(${FILENAME} pico_stdlib)
+
 # This line causes the map/bin/hex binaries to be produced
 pico_add_extra_outputs(${FILENAME})
 # Enable usb serial communication so the pico can print to the computer

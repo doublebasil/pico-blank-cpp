@@ -1,6 +1,4 @@
-// Include pcio libraries
 #include "pico/stdlib.h"
-// Include stdio or iostream if you want to print via serial
 #include <stdio.h>
 
 #define LED_BUILTIN 25
