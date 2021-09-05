@@ -11,3 +11,8 @@ Firstly, turning cpp code into something the pcio executes:
 To read the print statements from the pico
 
 minicom -b 115200 -o -D /dev/ttyACM0
+
+
+If you want to use, for example, picos ADC code, you need 
+both a #include in the cpp file, and you need to update
+target_link_libraries in the CMakeLists.txt file.
