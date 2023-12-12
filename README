@@ -1,0 +1,5 @@
+Use ./compile.sh to compile
+Use ./compile.sh u to compile and upload
+
+Make sure to git submodule update --init --recursive
+to ensure the pico-sdk is installed correctly
