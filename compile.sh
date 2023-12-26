@@ -1,5 +1,5 @@
 #!/bin/bash
-# Build script my plant watering pico-w project
+# Build script for a pico or pico-w project
 
 # -DPICO_BOARD=pico_w builds for pico w, not pico
 # -B build means cmake creates the build folder if needed
